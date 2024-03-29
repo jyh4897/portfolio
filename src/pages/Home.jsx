@@ -15,7 +15,7 @@ export default function Home() {
 
   React.useEffect(
     function () {
-      document.title = `${name} | Portfolio`;
+      document.title = `JeonYunho | Portfolio`;
     },
     [name]
   );
@@ -27,7 +27,7 @@ export default function Home() {
         <AboutMe />
         <Skills />
         <Projects />
-        <Contact />
+        {/* <Contact /> */}
       </main>
       <BackToTop home={"Home"} />
       <Footer />

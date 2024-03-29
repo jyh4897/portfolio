@@ -6,6 +6,7 @@ import { Icon } from "@iconify/react";
 
 // Projects Images (add your images to the images directory and import below)
 import Logo from "./images/logo.svg";
+import shopmain from "./images/shopmain.png"
 
 // Hero Images (add your images to the /images directory with the same names)
 import HeroLight from "./images/hero-light.jpg";
@@ -18,7 +19,7 @@ export { HeroDark as Dark };
  **************************************************************
   Add your GitHub username (string - "YourUsername") below.
 */
-export const githubUsername = "Your GitHub username here";
+export const githubUsername = "jyh4897";
 
 // Navbar Logo image
 export const navLogo = undefined;
@@ -31,7 +32,7 @@ export const Blog = <Icon icon="ph:link-bold" />;
   Add a second paragraph for the about me section.
 */
 export const moreInfo =
-  "I enjoy learning about technology and helping others use it to improve their lives and be more productive. I built this site with React, React Bootstrap, Redux, and the GitHub REST API.";
+  "항상 새로운 기술을 배우는 것을 두려워하지 않고 즐깁니다. 몰입할 수 있는 가치를 만드는 개발자가 되고자 합니다.";
 
 /* Skills
  ************************************************************** 
@@ -55,31 +56,26 @@ export const skillData = [
   },
   {
     id: 4,
-    skill: <Icon icon="ri:bootstrap-fill" className="display-4" />,
-    name: "BootStrap",
-  },
-  {
-    id: 5,
     skill: <Icon icon="mdi:react" className="display-4" />,
     name: "React",
   },
   {
+    id: 5,
+    skill: <Icon icon="mdi:nodejs" className="display-4" />,
+    name: "Node.JS",
+  },
+  {
     id: 6,
-    skill: <Icon icon="file-icons:styledcomponents" className="display-4" />,
-    name: "Styled Components",
+    skill: <Icon icon="simple-icons:mysql" className="display-4" />,
+    name: "MySQL",
   },
   {
     id: 7,
-    skill: <Icon icon="akar-icons:redux-fill" className="display-4" />,
-    name: "Redux",
-  },
-  {
-    id: 8,
     skill: <Icon icon="bi:git" className="display-4" />,
     name: "Git",
   },
   {
-    id: 9,
+    id: 8,
     skill: <Icon icon="fa6-brands:square-github" className="display-4" />,
     name: "GitHub",
   },
@@ -92,13 +88,17 @@ export const resume = null;
  ************************************************************** 
   List the repo names (string - "your-repo-name") you want to include (they will be sorted alphabetically). If empty, only the first 3 will be included.
 */
-export const filteredProjects = ["example-1", "example-2", "example-3"];
+export const filteredProjects = ["shop", "example-2", "example-3"];
 
 // Replace the defualt GitHub image for matching repos below (images imported above - lines 7-8)
 export const projectCardImages = [
   {
     name: "example-1",
     image: Logo,
+  },
+  {
+    name: "shop",
+    image: shopmain,
   },
 ];
 
