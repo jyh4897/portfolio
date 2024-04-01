@@ -52,6 +52,12 @@ export default function StyledCard({ image, name, description, url, demo }) {
               <Icon icon="icon-park-outline:code-computer" />
             </Card.Link>
           ) : null}
+          {image !== "" && demo !== null ? (
+            <Card.Link href={`/#/${name}`}>
+                {"Live Demo "}
+                <Icon icon="icon-park-outline:code-computer" />
+            </Card.Link>
+          ) : null}
         </Card.Body>
         <Card.Footer className="text-center">
           <Card.Link href={url}>
