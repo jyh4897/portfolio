@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/your-app/static/css/main.811ffb03.css",
+    "main.js": "/your-app/static/js/main.7c1d0601.js",
+    "static/media/banner5.png": "/your-app/static/media/banner5.92efcc6450a4c8907c9d.png",
+    "static/media/banner1.png": "/your-app/static/media/banner1.91b5826103889bcef55d.png",
+    "static/media/banner6.png": "/your-app/static/media/banner6.9940b8ee4d27b3834b72.png",
+    "static/media/banner2.png": "/your-app/static/media/banner2.a63ea3eb26cae96e1a98.png",
+    "static/media/banner4.png": "/your-app/static/media/banner4.d891d1127d8c5001dea8.png",
+    "static/media/hero-dark.jpg": "/your-app/static/media/hero-dark.37f2556d620821979e99.jpg",
+    "static/media/shopmain.png": "/your-app/static/media/shopmain.bb652244826b5e1a8c3b.png",
+    "static/media/banner3.png": "/your-app/static/media/banner3.0400ca16fede1841b0b0.png",
+    "static/media/hero-light.jpg": "/your-app/static/media/hero-light.78b77836d8aee4d7d3cb.jpg",
+    "static/media/item3.jpg": "/your-app/static/media/item3.7f7b52c2e30f9e316954.jpg",
+    "static/media/item2.jpg": "/your-app/static/media/item2.dfd7bcf8b4becc1a565a.jpg",
+    "static/media/item5.jpg": "/your-app/static/media/item5.1fba6599938ca7a99864.jpg",
+    "service-worker.js": "/your-app/service-worker.js",
+    "static/media/item6.jpg": "/your-app/static/media/item6.fc8f115c1229f6629d82.jpg",
+    "static/media/item4.jpg": "/your-app/static/media/item4.eb4d449481c632bce59f.jpg",
+    "static/media/logo.png": "/your-app/static/media/logo.d80cc0ef22959e0354e6.png",
+    "static/media/item1.jpg": "/your-app/static/media/item1.4cd5fc208e9e168c7dba.jpg",
+    "static/media/GH.svg": "/your-app/static/media/GH.b9e9a9aa6f05e9dfe5dcb8991bda3e4d.svg",
+    "static/media/defaultNavLogo.svg": "/your-app/static/media/defaultNavLogo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/logo.svg": "/your-app/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/slick.svg": "/your-app/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/your-app/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/your-app/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/your-app/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/your-app/index.html",
+    "main.811ffb03.css.map": "/your-app/static/css/main.811ffb03.css.map",
+    "main.7c1d0601.js.map": "/your-app/static/js/main.7c1d0601.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.811ffb03.css",
+    "static/js/main.7c1d0601.js"
+  ]
+}
