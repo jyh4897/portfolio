@@ -46,7 +46,7 @@ export default function StyledCard({ image, name, description, url, demo }) {
         <Card.Body className="overflow-auto text-center">
           <Card.Title>{name}</Card.Title>
           <Card.Text>{description}</Card.Text>
-          {demo !== "" && demo !== null ? (
+          {/* {demo !== "" && demo !== null ? (
             <Card.Link href={demo}>
               {"Live Demo "}
               <Icon icon="icon-park-outline:code-computer" />
@@ -57,7 +57,7 @@ export default function StyledCard({ image, name, description, url, demo }) {
                 {"Live Demo "}
                 <Icon icon="icon-park-outline:code-computer" />
             </Card.Link>
-          ) : null}
+          ) : null} */}
         </Card.Body>
         <Card.Footer className="text-center">
           <Card.Link href={url}>
